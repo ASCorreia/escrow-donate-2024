@@ -1,0 +1,45 @@
+Arguments: 
+  /home/ascespool/.nvm/versions/node/v16.17.0/bin/node /home/ascespool/.nvm/versions/node/v16.17.0/bin/yarn install
+
+PATH: 
+  /home/ascespool/.local/share/solana/install/active_release/bin:/home/ascespool/.cargo/bin:/home/ascespool/.nvm/versions/node/v16.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.UbuntuonWindows_2004.2022.1.0_x64__79rhkp1fndgsc:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ascorreia/.avm/bin:/mnt/c/jom:/mnt/c/Users/ascorreia/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/USER-Admin/.local/share/solana/install/active_release/bin:/mnt/c/Users/USER-Admin/AppData/Roaming/local/bin:/mnt/c/Users/USER-Admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER-Admin/.dotnet/tools:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+      "scripts": {
+          "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+          "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+      },
+      "dependencies": {
+          "@coral-xyz/anchor": "^0.29.0"
+      },
+      "devDependencies": {
+          "chai": "^4.3.4",
+          "mocha": "^9.0.3",
+          "ts-mocha": "^10.0.0",
+          "@types/bn.js": "^5.1.0",
+          "@types/chai": "^4.3.0",
+          "@types/mocha": "^9.0.0",
+          "typescript": "^4.3.5",
+          "prettier": "^2.6.2"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
